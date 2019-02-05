@@ -6,6 +6,7 @@ fun helloWorld(){
     println("Hello World")
     println("Hello World4")
     println("Hello Fish")
+    println("Hello Cat")
 }
 
 fun fizzbuzz(num:Int){
