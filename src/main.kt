@@ -4,7 +4,8 @@ fun main(args: Array<String>){
 }
 fun helloWorld(){
     println("Hello World")
-    println("Hello World3")
+    println("Hello World4")
+    println("Hello Fish")
 }
 
 fun fizzbuzz(num:Int){
