@@ -1,7 +1,9 @@
 fun main(args: Array<String>){
-    helloWorld()
-    fizzbuzz(20)
+    mapBranch()
+//    helloWorld()
+//    fizzbuzz(20)
 }
+
 fun helloWorld(){
     println("Hello World")
     println("Hello World4")
@@ -17,4 +19,12 @@ fun fizzbuzz(num:Int){
             else -> println(i)
         }
     }
+}
+
+fun mapBranch(){
+    val myList = ArrayList<Int>()
+    val tempList = listOf(1,2,3)
+    tempList.mapTo(myList) {it*2}
+//    mapToResult.forEach { print("$it,") }
+    myList.forEach { print("$it,") }
 }
