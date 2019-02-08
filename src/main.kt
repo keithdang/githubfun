@@ -24,7 +24,6 @@ fun fizzbuzz(num:Int){
 fun mapBranch(){
     val myList = ArrayList<Int>()
     val tempList = listOf(1,2,3)
-    tempList.mapTo(myList) {it*2}
-//    mapToResult.forEach { print("$it,") }
+    tempList.filter { it % 2 != 0 }.mapTo(myList) { it * 2 }
     myList.forEach { print("$it,") }
 }
