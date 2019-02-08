@@ -1,13 +1,13 @@
 fun main(args: Array<String>){
-    mapBranch()
-//    helloWorld()
-//    fizzbuzz(20)
+  println("main")
+  mapBranch()
 }
 
 fun helloWorld(){
     println("Hello World")
     println("Hello World4")
     println("Hello Fish")
+    println("Hello Cat")
 }
 
 fun fizzbuzz(num:Int){
